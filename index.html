@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Daniel V. Rosamond – Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Header & Nav -->
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">Daniel Rosamond</h1>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        ☰
+      </button>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <h2>Hi, I’m Daniel</h2>
+      <p>Freshman Electrical Engineering @ UB – IB Diploma | Robotics & IoT Enthusiast</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <!-- Card 1 -->
+        <div class="card">
+          <h3>IoT Security Platform</h3>
+          <p>End‑to‑end home defense system: ESP32‑CAM, Pico relays, face‐tracking turret & web dashboard.</p>
+          <a href="https://github.com/your-username/iot-security" target="_blank">View on GitHub</a>
+        </div>
+        <!-- Card 2 -->
+        <div class="card">
+          <h3>FPV Drone Design</h3>
+          <p>Designed and built a competition FPV drone with custom 3D‑printed parts and generative payload system.</p>
+          <a href="https://github.com/your-username/iam3d-drone" target="_blank">View on GitHub</a>
+        </div>
+        <!-- Card 3 -->
+        <div class="card">
+          <h3>Lecture Recitation Tool</h3>
+          <p>PyQt5 app with Azure Cognitive Services: record, transcribe, and query classroom lectures.</p>
+          <a href="https://github.com/your-username/lecture-recitation" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I’m a freshman pursuing Electrical Engineering at the University at Buffalo, with an International Baccalaureate Diploma.
+        I love building automated systems—combining embedded firmware, computer vision, and 3D‑printed hardware.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <label>
+          Name
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="_replyto" required>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Daniel V. Rosamond</p>
+    </div>
+  </footer>
+</body>
+</html>
